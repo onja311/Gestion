@@ -2,25 +2,21 @@ body {
     font-family: Arial, sans-serif;
     background: #222;
     color: white;
-}
-
-h1 {
     text-align: center;
 }
 
 nav ul {
     list-style: none;
-    display: flex;
-    justify-content: center;
+    padding: 0;
 }
 
 nav ul li {
+    display: inline;
     margin: 10px;
 }
 
 .product {
     background: #333;
     padding: 15px;
-    margin: 10px;
     border-radius: 5px;
 }
