@@ -1,0 +1,8 @@
+CREATE DATABASE autofinity;
+USE autofinity;
+
+CREATE TABLE transactions (
+    id INT PRIMARY KEY AUTO_INCREMENT,
+    montant INT,
+    date TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
