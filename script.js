@@ -1,3 +1,3 @@
 document.addEventListener('DOMContentLoaded', () => {
-    console.log("Tsena charbon tonga!");
+    console.log("AutoFinity chargé !");
 });
